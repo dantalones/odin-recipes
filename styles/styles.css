@@ -1,4 +1,5 @@
 ul {
-    columns: 2;
-    max-width: 550px;
+  columns: 2;
+  max-width: 550px;
+  font-weight: 550;
 }
