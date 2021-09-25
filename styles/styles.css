@@ -1,34 +1,63 @@
+/* ---------------index.html------------ */
+/* ---------------index.html-------------*/
+
 #title {
   background-color: rgba(0, 0, 255, 0.2);
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: -10px;
+  margin-bottom: -15px;
 }
 
 .kamayan {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: rgba(255, 255, 0, 0.2);
+  text-align: center;
+  background-color: rgba(201, 201, 16, 0.2);
 }
 
 .recipes,
 .filipino-recipes {
   font-size: 20px;
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
   background-color: rgba(255, 0, 0, 0.2);
 }
 
-ul {
+#unorder {
   width: 450px;
   display: table;
-  table-layout: center;
   margin: 0 auto;
 }
-ul li {
+
+#unorder .list {
   display: table-cell;
 }
-ul li a {
-  display: block;
-  justify-content: center;
+
+/* ------------------foods----------------- */
+/* ------------------foods------------------*/
+
+#lumpia {
+  background-color: rgba(0, 0, 255, 0.2);
+  text-align: left;
+  margin-top: -10px;
+  margin-bottom: -15px;
+  width: 1000px;
+}
+
+.ingredients {
+  columns: 2;
+  max-width: 1000px;
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+.food {
+  text-align: left;
+  background-color: rgba(201, 201, 16, 0.2);
+  width: 1000px;
+}
+
+.para1 {
+  text-align: left;
+  font-size: 18px;
+  background-color: rgba(255, 0, 0, 0.2);
+  width: 1000px;
 }
